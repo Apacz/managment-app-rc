@@ -1,0 +1,73 @@
+{
+  "name": "Managment_App",
+  "title": "Management Tools for SME",
+  "version": "1.0.0",
+  "price": 1000,
+  "stackable": true,
+  "hideExtraData": true,
+  "description": "Streamline Your Business Tasks in One Application",
+  "modules": [
+    "CRM",
+    "HR",
+    "BPM",
+    "Ticket",
+    "Calendar",
+    "ERM",
+    "Documents",
+    "Task",
+    "Communication",
+    "KPI",
+    "Organisation",
+    "Finance",
+    "AI"
+  ],
+  "color": "yellow",
+  "icon": "fa-tasks",
+  "url": "accounting_dashboard",
+  "menu": {
+    "Dashboard": "accounting_dashboard",
+    "Clients": {
+      "List": "app_client_index",
+      "Types": "app_client_type_index",
+      "Notes": "app_note_index"
+    },
+    "Calendars": {
+      "List": "app_calendar_index",
+      "Meets": "app_meet_index",
+      "Deadlines": "app_deadline_index",
+      "Events": "app_event_index"
+    },
+    "Projects": {
+      "List": "app_project_index",
+      "List of Tasks": "list_task",
+      "Sets of Tasks": "app_task_set_index"
+    },
+    "Documents": {
+      "Project Documents": "app_document_index"
+    },
+    "Employees": {
+      "List": "app_employee_index",
+      "Time Entry": "app_time_entry_index",
+      "Attendance": "app_attendance_index",
+      "Payrolls": "app_payroll_index",
+      "Leaves": "app_leave_index"
+    },
+    "Emails": {
+      "List": "app_email_index",
+      "Email Templates": "app_email_template_index"
+    },
+    "Funnels": {
+      "List": "app_funnel_index",
+      "Stages": "app_funnel_stage_index",
+      "Actions": "app_action_index"
+    },
+    "Risks": {
+      "List": "list_risk",
+      "Assessment": "app_risk_assessment_index",
+      "Monitoring": "app_risk_monitoring_index",
+      "Owners": "list_risk_owner",
+      "Responses": "app_risk_response_index"
+    }
+  },
+  "available": true
+}

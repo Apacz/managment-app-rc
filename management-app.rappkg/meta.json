@@ -1,0 +1,124 @@
+{
+  "id": "manager-app",
+  "key": "manager-app",
+  "name": "Management Tools for SME",
+  "version": "1.0.0",
+  "channel": "stable",
+  "type": "app",
+  "entry": "app.json",
+  "slug": "appsumo-manager",
+  "title": "SME Operations Manager",
+  "short_description": "Run sales, service, and team execution from one command center to save management time.",
+  "outcome_statement": "Recover 10-15 management hours per week and increase on-time task completion by up to 35%.",
+  "target_icp": "Operations-heavy SMEs with 20-200 employees, led by founders, COO-level managers, or department heads.",
+  "primary_pain_points": [
+    "Work is spread across disconnected tools",
+    "Managers lack real-time visibility into execution",
+    "Team handoffs cause missed deadlines",
+    "Service and internal requests are hard to prioritize"
+  ],
+  "measurable_kpis": [
+    "On-time completion rate",
+    "Manager hours spent on status chasing",
+    "Ticket response time",
+    "Cross-team handoff delay"
+  ],
+  "workflows_included": [
+    "Task and ticket triage: prioritize incoming work based on business impact",
+    "Weekly execution cadence: align teams around shared commitments",
+    "Escalation workflow: surface blocked items before deadlines slip",
+    "Leadership KPI board: monitor throughput, response time, and ownership"
+  ],
+  "required_modules": [
+    "CRM",
+    "Task",
+    "Ticket",
+    "Calendar",
+    "KPI",
+    "Organisation"
+  ],
+  "optional_modules": [
+    "Finance",
+    "HR",
+    "Communication",
+    "AI",
+    "Documents"
+  ],
+  "integrations_supported": [
+    "Google Calendar",
+    "Slack",
+    "Microsoft Teams",
+    "HubSpot",
+    "Zapier"
+  ],
+  "screenshots": [
+    "assets/screenshots/ops-overview.png",
+    "assets/screenshots/workload-priorities.png",
+    "assets/screenshots/manager-kpi-board.png"
+  ],
+  "demo_video_url": "https://www.youtube.com/watch?v=appsumo-manager-demo",
+  "install_steps": [
+    "Install package from Robo Meister Store",
+    "Connect team communication and calendar tools",
+    "Import active tasks, tickets, and owners",
+    "Set priority rules and escalation thresholds",
+    "Start weekly management rhythm with KPI dashboard"
+  ],
+  "estimated_time_to_value": "5 days",
+  "expansion_triggers": [
+    "Team size grows beyond 40 employees",
+    "Support ticket volume increases month-over-month",
+    "Managers oversee multiple departments"
+  ],
+  "pricing_hint": "Designed for fast-moving operations teams that need cross-functional execution control.",
+  "landing_pages": {
+    "primary": "https://robo-meister.com/solution/sme-operations-manager",
+    "secondary": "https://robo-meister.com/solution/management-execution-system"
+  },
+  "store_url": "https://store.robo-meister.com/packages/appsumo-manager",
+  "cta": {
+    "primary_label": "Install Operations Manager",
+    "primary_action": "install_now",
+    "secondary_label": "Talk to a Solution Advisor",
+    "secondary_action": "book_demo"
+  },
+  "tracking": {
+    "primary_conversion_event": "package_install",
+    "secondary_events": [
+      "store_page_view",
+      "landing_page_cta_click",
+      "onboarding_completed",
+      "first_weekly_cadence_completed",
+      "first_kpi_board_shared"
+    ]
+  },
+  "utm_defaults": {
+    "campaign_name": "sme_operations_manager_pipeline",
+    "source": "robo_meister",
+    "medium": "paid_search"
+  },
+  "modules_required": [
+    "CRM",
+    "Task",
+    "Ticket",
+    "Calendar",
+    "KPI",
+    "Organisation"
+  ],
+  "modules": [
+    "CRM",
+    "Task",
+    "Ticket",
+    "Calendar",
+    "KPI",
+    "Organisation",
+    "Finance",
+    "HR",
+    "Communication",
+    "AI",
+    "Documents"
+  ],
+  "plan_tiers": [
+    "AppSumo_Manager"
+  ]
+}
