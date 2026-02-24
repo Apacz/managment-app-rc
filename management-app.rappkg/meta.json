@@ -1,16 +1,25 @@
 {
-  "id": "manager-app",
-  "key": "manager-app",
-  "name": "Management Tools for SME",
+  "id": "appsumo-manager",
+  "key": "appsumo-manager",
+  "name": "AppSumo_Manager",
   "version": "1.0.0",
   "channel": "stable",
   "type": "app",
   "entry": "app.json",
   "slug": "appsumo-manager",
-  "title": "SME Operations Manager",
+  "title": "Automation & Management Application",
   "short_description": "Run sales, service, and team execution from one command center to save management time.",
   "outcome_statement": "Recover 10-15 management hours per week and increase on-time task completion by up to 35%.",
-  "target_icp": "Operations-heavy SMEs with 20-200 employees, led by founders, COO-level managers, or department heads.",
+  "target_icp": {
+    "company_size": "Operations-heavy SMEs with 20-200 employees",
+    "personas": [
+      "Operations Manager",
+      "Finance Lead",
+      "IT Lead",
+      "General Manager",
+      "Founder / COO"
+    ]
+  },
   "primary_pain_points": [
     "Work is spread across disconnected tools",
     "Managers lack real-time visibility into execution",
@@ -21,13 +30,34 @@
     "On-time completion rate",
     "Manager hours spent on status chasing",
     "Ticket response time",
-    "Cross-team handoff delay"
+    "Cross-team handoff delay",
+    "SLA breach rate"
   ],
   "workflows_included": [
-    "Task and ticket triage: prioritize incoming work based on business impact",
-    "Weekly execution cadence: align teams around shared commitments",
-    "Escalation workflow: surface blocked items before deadlines slip",
-    "Leadership KPI board: monitor throughput, response time, and ownership"
+    {
+      "id": "procurement-approvals",
+      "name": "Procurement Approvals",
+      "anchor": "procurement-approvals",
+      "summary": "Automate purchase request routing and approvals with spend thresholds and owner accountability."
+    },
+    {
+      "id": "intake-routing",
+      "name": "Intake Routing",
+      "anchor": "intake-routing",
+      "summary": "Classify and assign internal and customer requests to the right queue based on urgency and capacity."
+    },
+    {
+      "id": "sla-operations",
+      "name": "SLA Operations",
+      "anchor": "sla-ops",
+      "summary": "Track SLA timers, trigger escalations, and resolve blockers before breach windows are missed."
+    },
+    {
+      "id": "kpi-dashboards",
+      "name": "KPI Dashboards",
+      "anchor": "kpi-dashboards",
+      "summary": "Provide leadership dashboards for throughput, response quality, and cross-team execution health."
+    }
   ],
   "required_modules": [
     "CRM",
@@ -94,7 +124,7 @@
   },
   "utm_defaults": {
     "campaign_name": "sme_operations_manager_pipeline",
-    "source": "robo_meister",
+    "source": "google_ads",
     "medium": "paid_search"
   },
   "modules_required": [
@@ -120,5 +150,13 @@
   ],
   "plan_tiers": [
     "AppSumo_Manager"
-  ]
+  ],
+  "package_id": 23,
+  "roles": [
+    "Operations",
+    "Finance",
+    "IT",
+    "Management"
+  ],
+  "status": "public"
 }
