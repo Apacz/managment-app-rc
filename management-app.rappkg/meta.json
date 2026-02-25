@@ -20,6 +20,12 @@
       "Founder / COO"
     ]
   },
+  "screenshots": [
+    "/screenshots/QA_dachboard.png",
+    "/screenshots/kanban_epic.png",
+    "/screenshots/Reports.png",
+    "/screenshots/Regulations.png"
+  ],
   "primary_pain_points": [
     "Work is spread across disconnected tools",
     "Managers lack real-time visibility into execution",
