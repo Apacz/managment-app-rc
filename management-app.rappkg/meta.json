@@ -1,15 +1,15 @@
 {
-  "id": "appsumo-manager",
-  "key": "appsumo-manager",
-  "name": "AppSumo_Manager",
-  "version": "1.0.0",
+  "id": "robo-manager",
+  "key": "robo-manager",
+  "name": "Robo Management Workspace",
+  "version": "1.1.2",
   "channel": "stable",
   "type": "app",
   "entry": "app.json",
-  "slug": "appsumo-manager",
-  "title": "Automation & Management Application",
-  "short_description": "Run sales, service, and team execution from one command center to save management time.",
-  "outcome_statement": "Recover 10-15 management hours per week and increase on-time task completion by up to 35%.",
+  "slug": "robo-manager",
+  "title": "Robo Management Workspace for Operations Teams",
+  "short_description": "Centralize intake, approvals, execution, and KPI visibility for cross-functional operations teams.",
+  "outcome_statement": "Reduce workflow cycle time and status-chasing overhead while improving on-time delivery across teams.",
   "target_icp": {
     "company_size": "Operations-heavy SMEs with 20-200 employees",
     "personas": [
@@ -20,12 +20,6 @@
       "Founder / COO"
     ]
   },
-  "screenshots": [
-    "/screenshots/QA_dachboard.png",
-    "/screenshots/kanban_epic.png",
-    "/screenshots/Reports.png",
-    "/screenshots/Regulations.png"
-  ],
   "primary_pain_points": [
     "Work is spread across disconnected tools",
     "Managers lack real-time visibility into execution",
@@ -153,9 +147,6 @@
     "Communication",
     "AI",
     "Documents"
-  ],
-  "plan_tiers": [
-    "AppSumo_Manager"
   ],
   "package_id": 23,
   "roles": [
